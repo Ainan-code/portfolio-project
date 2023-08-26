@@ -1,7 +1,8 @@
-import profilepic from "../assets/profile.jpg"
+import profilepic from "../assets/pic2.jpg"
 
 export default function About() {
     return(
+      <div className="consd ">
         <div className="about-section">
             <div className="profile-img"> 
             <img src={profilepic} alt="profile" />
@@ -21,6 +22,7 @@ export default function About() {
               </div>
              </div>
              
+             </div>
              </div>
     )
 }
