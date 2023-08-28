@@ -35,7 +35,7 @@ html, body {
 
 .consd {
   padding: 70px 0px;
-  background:linear-gradient(160deg, #67E0A3, #67E0A3 60%, #EDFDF6 60%, #EDFDF6);
+  background:linear-gradient(160deg, #15707A,  #15707A 60%, #EDFDF6 60%, #EDFDF6);
  
 
 }
@@ -145,7 +145,11 @@ html, body {
 
 /*   */
 .contact-section {
-  border: 1px solid black;
+ background-color: #177E89;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 6px;
 }
 
 
